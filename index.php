@@ -29,13 +29,14 @@ define('mypage',true);
 	<div id="container" >
 		<div id="text">
 			<?php
+			//import that left column file
 			include 'left_column.php'
-			//import paragraph
+
        ?>
 		</div>
 		<div id="data">
-			<P>TALLEST BUILDINGS THROUGHOUT MODERN TIME
-			</P>
+			<h2>TALLEST BUILDINGS THROUGHOUT MODERN TIME
+			</h2>
 			<?php 
        include 'right_column.php';
 
